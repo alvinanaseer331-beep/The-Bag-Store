@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Bag Boulevard</title>
+  <style>
+   body {
+        background: lightblue;
+        font-family: Arial, sans-serif;
+    }
+    .menu {
+        background: darkblue;
+        padding: 10px;
+        text-align: center;
+    }
+	 .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+  .menu ul li {
+        display: inline-block;
+        position: relative;
+    }
+    .menu ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        font-size: 18px;
+    }
+    .menu ul li a:hover {
+        color: yellow;
+        background: lightblue;
+    }
+	 /* dropdown menu hidden by default */
+    .menu ul li ul {
+        display: none;
+        position: absolute;
+        background: darkblue;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        min-width: 150px;
+    }
+    /* show dropdown when hover */
+    .menu ul li:hover ul {
+        display: block;
+		}
+		h1 {
+        color: purple;
+		text-align:center;
+    }
+	p {
+        text-align: center;
+        color: green;
+    }
+	.logo {
+	text-align: left;
+	background-color: white;
+	border: 4px solid black;
+	border-radius: 15px;
+	width: 100px;
+	margin: 20px 0 20px 20px;
+	padding: 10px;
+	box-shadow: 4px 4px 10px gray;
+	}
+	.buy-btn {
+	text-align:left;
+	border:4px solid black;
+	color:black;
+	background-color:white;
+	box-shadow: 4px 4px 10px white;
+	}
+  </style>
+  </head>
+<body>
+<div class="menu">
+    <div class="logo">
+	<a href="home.html"><img src="logo.webp" alt="shop logo" width="60px" height="auto"></a>
+	</div>
+<ul>
+      <!-- HOME with dropdown -->
+      <li>
+        <a href="Home.html">Home</a>
+      </li>
+	  <!-- COLLECTIONS with dropdown -->
+      <li>
+        <a href="Collection.html">Collections ▼</a>
+        <ul>
+          <li><a href="#">School Bags</a></li>
+          <li><a href="#">Travel Bags</a></li>
+          <li><a href="#">Dailywear Bags</a></li>
+          <li><a href="#">Tote Bags</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">About Us</a></li>
+	  <li><a href="Best Product.html">Best Product</a></li>
+      <li><a href="Contact Us.html">Contact Us</a></li>
+    </ul>
+  </div>
+  <h1> SCHOOL BAGS </h1>
+  <p>A school bag is used by students to carry books, notebooks, and stationery. It has straps, zippers, and pockets to keep things safe and organized. It is strong, light, and easy to carry.</p>
+  <img src="school1.webp" alt="school1" style="border:3px solid black;" width="250">
+   <button class="buy-btn" onclick="window.location.href=order.html">Buy Order</button>
+  <img src="school2.webp" alt="school2" style="border:3px solid black;" width="158">
+   <button class="buy-btn" onclick="window.location.href=order.html">Buy Order</button>
+  <img src="school3.webp" alt="school3" style="border:3px solid black;" width="220">
+   <button class="buy-btn" onclick="window.location.href=order.html">Buy Order</button>
+  <img src="school4.webp" alt="school4" style="border:3px solid black;" width="225">
+   <button class="buy-btn" onclick="window.location.href=order.html">Buy Order</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+<footer style="background: darkblue; color: white; font-size: 30px;">
+copyright reservered 2025 The Bag Boulevard Contact:The Bag Boulevard 
+
+</footer>
+</body>
+</html>

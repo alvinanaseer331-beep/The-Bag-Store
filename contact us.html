@@ -1,0 +1,119 @@
+<DOCTYPE html>
+<html>
+<head>
+<title> The Bag Boulevard</title>
+<style>
+ body {
+        background: lightblue;
+        font-family: Arial, sans-serif;
+    }
+    .menu {
+        background: darkblue;
+        padding: 10px;
+        text-align: center;
+    }
+    .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .menu ul li {
+        display: inline-block;
+        position: relative;
+    }
+    .menu ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        font-size: 18px;
+    }
+    .menu ul li a:hover {
+        color: yellow;
+        background: lightblue;
+    }
+    /* dropdown menu hidden by default */
+    .menu ul li ul {
+        display: none;
+        position: absolute;
+        background: darkblue;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        min-width: 150px;
+    }
+    /* show dropdown when hover */
+    .menu ul li:hover ul {
+        display: block;
+    }
+    .menu ul li ul li {
+        display: block;
+        text-align: left;
+    }
+    p {
+        text-align: center;
+        color: green;
+    }
+    h1 {
+        color: purple;
+		text-align:center;
+    }
+	.logo {
+	text-align:left;
+	}
+</style>
+</head>
+<body>
+ <!-- Navigation Menu -->
+  
+<div class="menu">
+       <div class="logo">
+	   <a href="Home.html">Home<img src="logo.webp" alt="shop logo" width="60px" height="auto"></a>
+	   </div>
+    <ul>
+      <!-- HOME with dropdown -->
+      <li>
+        <a href="index.html">Home ▼</a>
+        <ul>
+          <li><a href="#">school bag</a></li>
+          <li><a href="#">Travel bag</a></li>
+          <li><a href="#">Featured Bags</a></li>
+        </ul>
+      </li>
+<!-- COLLECTIONS with dropdown -->
+      <li>
+        <a href="Collection.html">Collections ▼</a>
+        <ul>
+          <li><a href="#">School Bags</a></li>
+          <li><a href="#">Travel Bags</a></li>
+          <li><a href="#">Dailywear Bags</a></li>
+          <li><a href="#">Tote Bags</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">About Us</a></li>
+	  <li><a href="Best Product.html">Best Product</a></li>
+      <li><a href="Contact Us.html">Contact Us</a></li>
+    </ul>
+  </div>
+
+<h1> Get in Touch </h1>
+<form action="submit-form.php" method="post">
+<label for="name">Your Name:</label><br>
+<input type="text" id="name" name="name" required><br><br>
+<label for="email">Your Email:</label><br>
+<input type="email" id="email" name="email"  required><br><br>
+<label for="message"> Your message:</label><br>
+<textarea id="message" name="message" rows="5" required></textarea><br><br>
+<button type="submit">Send message</button>
+</form>
+<h1> Contact Us </h1>
+<img src="insta logo.png" alt="insta logo" width="50">   
+<img src="fb logo.png" alt="fb logo.png" width="50">
+<img src="e-mail logo.png" alt="e-mail-logo" width="50">
+<h1> Thank You For Visiting Our Shop! </h1>
+<footer style="background: darkblue; color: white; font-size: 30px;">
+copyright reservered 2025 The Bag Boulevard Contact:The Bag Boulevard 
+
+</footer>
+</body>
+</html>
